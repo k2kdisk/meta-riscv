@@ -30,4 +30,4 @@ do_deploy() {
 
 addtask deploy before do_build after do_compile
 
-COMPATIBLE_MACHINE = "nezha-allwinner-d1"
+COMPATIBLE_MACHINE = "nezha-allwinner-d1|licheerv"
